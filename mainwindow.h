@@ -20,9 +20,9 @@ private slots:
 
     void on_actionBlack_Piano_triggered();
 
-    void on_actionPok_dex_Orange_triggered();
+    void on_actionPokedex_Orange_triggered();
 
-    void on_actionPok_dex_Red_triggered();
+    void on_actionPokedex_Red_triggered();
 
     void on_actionCustom_triggered();
 
