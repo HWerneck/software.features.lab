@@ -15,7 +15,7 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(78,78,78);</string>
+    <string notr="true"/>
    </property>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -24,7 +24,7 @@
      <x>0</x>
      <y>0</y>
      <width>500</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -34,7 +34,7 @@ color: rgb(220, 220, 220);</string>
    </property>
    <widget class="QMenu" name="menuNew">
     <property name="title">
-     <string>New</string>
+     <string>&amp;New</string>
     </property>
    </widget>
    <widget class="QMenu" name="menuEdit">
@@ -43,7 +43,7 @@ color: rgb(220, 220, 220);</string>
     </property>
     <widget class="QMenu" name="menuAppearance">
      <property name="title">
-      <string>Appearance</string>
+      <string>&amp;Appearance</string>
      </property>
      <addaction name="actionBlack"/>
      <addaction name="actionBlack_Piano"/>
@@ -58,27 +58,27 @@ color: rgb(220, 220, 220);</string>
   </widget>
   <action name="actionBlack">
    <property name="text">
-    <string>Black</string>
+    <string>&amp;Black</string>
    </property>
   </action>
   <action name="actionBlack_Piano">
    <property name="text">
-    <string>Black Piano</string>
+    <string>Black &amp;Piano</string>
    </property>
   </action>
   <action name="actionPokedex_Orange">
    <property name="text">
-    <string>Orange</string>
+    <string>&amp;Orange</string>
    </property>
   </action>
   <action name="actionPokedex_Red">
    <property name="text">
-    <string>Red</string>
+    <string>&amp;Red</string>
    </property>
   </action>
   <action name="actionCustom">
    <property name="text">
-    <string>Custom</string>
+    <string>&amp;Custom</string>
    </property>
   </action>
  </widget>
